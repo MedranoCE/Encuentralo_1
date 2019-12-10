@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+    background-image: url(../img/4.jpg);
+    background-size: 100% 100%;
+}
+
+.container {
+  width: px;
+  max-width: 100%;
+  min-height: 700px;
+  margin: 0px auto 0;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px;
+  font-size: 30px;  
+  color: #fff;
+}
+.header h1{
+ color: #fff;
+  margin-left: 30px;
+  font-family: montez;
+  font-size: 30px;
+}
+.header a{
+  margin-right: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  transition: all ease 300ms;
+}
+.header a:hover{
+  color: rgb(180, 210, 212);
+}
+.content {
+  text-align: center;
+    background-image: url(../img/.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+.face {
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  background-position: top center;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.face . {
+  position: absolute;
+ 
+}
+
+.name {
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+color:#fff;
+background-color: rgba(0, 0, 0,.5)
+}
+
+.email {
+  font-size: 18px;
+    color:#fff;
+    background-color: rgba(0, 0, 0,0.2);
+  letter-spacing: 1px;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+    background-color: #000;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.text {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.text:last-child {
+  margin-right: 0;
+}
+
+.text span {
+  display: block;
+  padding: 6px;
+  border-radius: 75px;
+  color:#fff;
+  margin-bottom: 0px;
+}
+
+.photo-section .photo-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.photo-section .photo-title .title a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.informacion{
+    color: #000;
+	height: 520px;
+	padding: 6px 40px;
+	box-sizing: border-box;
+	background: #fff;
+}
+
+.informacion h4 {
+    width: 4%;
+    margin-top: 2px;
+
+}
+#desc{
+    width: 100%;
+    font-size: 80px;
+    border-radius: 3px;
+    border: 2px ;
+}
+.photo-section .thumb-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  padding: 10px 20px;
+  color: #fff;
+}
+.footer a{
+    color:#fff;
+}
+.footer a:hover{
+  color: rgb(180, 210, 212);
+}
+.footer .face {
+  width: 50px;
+  height: 50px;
+  margin: 0px 0px;
+}

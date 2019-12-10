@@ -1,0 +1,78 @@
+
+html, body, section {
+	height: 100%;
+}
+ 
+body {
+	color: #fff;
+	text-align: center;
+    /*background-image: url(../img/4.jpg);*/
+    background-color: #0097a7;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+ 
+div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.xop-container{
+    display: flex;
+}
+
+.xop-left {
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 225, 0.10)), url(../img/1.jpg);
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+}
+ 
+.xop-right {
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(164, 222, 102, 0.10)), url(../img/escritores.jpeg);
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+}
+.xop-left:hover, .xop-right:hover {
+	transform: scale(0.95);
+}
+.xop-left h1 {
+	font-size: 3rem;
+    
+}
+.p{
+    font-size: 7rem;
+}
+ 
+.xop-right h1 {
+	font-size: 3rem;
+}
+ 
+.xop-button {
+	border-radius: 30px;
+	color: #fff;
+	background-color: #0097a7;
+	padding: 1.5%;
+	margin: 0 2%;
+    
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 1.5rem;
+	cursor: pointer;
+	transition: all 0.3s;
+	width: 150px;
+}
+ 
+.xop-button:hover {
+	background:#56c8d8;
+	color: #262626;
+}
+

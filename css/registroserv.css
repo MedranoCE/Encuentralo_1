@@ -1,0 +1,143 @@
+html {
+        background-color: #444;
+         margin-top: 10%;
+      }
+body
+{
+	margin: 0;
+	padding: 0;
+	/*background-image: url(../img/2.jpg);*/
+	background-size: 100% 100%;
+    background-attachment: fixed;
+   
+	font-family: sans-serif;
+}
+
+.contenedor{
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+   width: 100%;
+   height: 100%;
+    margin-left:200;
+	margin-right:200;
+    padding-bottom: 30px;
+
+}
+
+header {
+	background: #006978;
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	border-bottom: 5px solid #006978;
+}
+header h1{
+    color: #fff;
+  margin-left: 25px;
+  font-family: montez;
+  font-size: 25px;
+}
+
+
+
+.loginBox
+{
+	position: absolute;
+	top: 57%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 389px;
+	height: 360px;
+	padding: 65px 40px;
+	box-sizing: border-box;
+	background: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px;
+    
+}
+.user
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(40px/2);
+	left: calc(50% - 50px);
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 2px;
+	color: #0489B1;
+	text-align: center;
+}
+}
+.loginBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 24px;
+    color: black;
+    
+}
+.loginBox input[type="text"]{
+    color: black;
+
+    border-radius: 50px;
+}
+
+.loginBox input[type="password"]
+{
+    color: black;
+
+    border-radius: 50px;
+
+}
+
+placeholder{
+	color: gray;
+}
+
+{
+	color: rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #0097a7;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover
+{
+	background: #56c8d8;
+	color: #262626;
+}
+
+
+#combo{
+    width: 44%;
+    margin-top: -18px;
+    margin-bottom: 1px;
+    float: right;
+}
+#list{
+    margin-top: 1px;
+    width: 100%;
+    
+}

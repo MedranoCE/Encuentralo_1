@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+    background-image: url(../img/4.jpg);
+    background-size: 100% 100%;
+}
+
+.container {
+  width: px;
+  max-width: 100%;
+  min-height: 700px;
+  margin: 0px auto 0;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px;
+  font-size: 30px;  
+  color: #fff;
+}
+.header h1{
+ color: #fff;
+  margin-left: 30px;
+  font-family: montez;
+  font-size: 30px;
+}
+.header a{
+  margin-right: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  transition: all ease 300ms;
+}
+.header a:hover{
+  color: rgb(180, 210, 212);
+}
+.content {
+  text-align: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+
+.text {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.text:last-child {
+  margin-right: 0;
+}
+
+.text span {
+  display: block;
+  padding: 6px;
+  border-radius: 75px;
+  color:#fff;
+  margin-bottom: 0px;
+    margin-left: 3px;
+}
+
+.informacion{
+    color: #fff;
+	height: 830px;
+	padding: 6px 40px;
+	box-sizing: border-box;
+
+}
+.informacion h4{
+    color: #fff;
+  margin-left: 3px;
+  font-size: 15px;
+}
+.informacion input{
+     width: 100%;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-radius: 0px;
+    border: 20px
+}
+.informacion form{
+    margin-bottom: 15px;
+    font-size: 15px;
+    
+}
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #0489B1;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover
+{
+	background: #04B4AE;
+	color: #262626;
+}
+.loginBox a
+{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+#desc{
+    width: 100%;
+    font-size: 80px;
+    border-radius: 3px;
+    border: 2px ;
+}
+.photo-section .thumb-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  padding: 10px 20px;
+  color: #fff;
+}
+.footer a{
+    color:#fff;
+}
+.footer a:hover{
+  color: rgb(180, 210, 212);
+}
+.footer .face {
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  background-position: top center;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+    margin: 0px 0px;
+}
+.footer .face . {
+  position: absolute;
+ 
+}

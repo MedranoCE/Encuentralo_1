@@ -1,0 +1,33 @@
+create database encuentralo
+use encuantralo
+
+
+
+create table regisdtro(
+id_cliente int not null primary key,
+Nombre varchar (30) not null,
+Apellido varchar (30) not null,
+Email varchar (30) not null,
+contraseña varchar (30) not null,
+CodigoP varchar (20) not null,
+
+)
+
+
+create table perfil(
+id_servicio int not null primary key,
+ev_servicio varchar (20) not null,
+telefono (20) not null,
+pais varchar (20) not null,
+ciudad int not null,
+region int not null,
+descripcion int not null,
+
+
+
+
+
+
+
+
+ 
